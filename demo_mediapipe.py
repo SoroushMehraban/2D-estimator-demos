@@ -42,8 +42,8 @@ def convert_to_json(detection_result, height, width):
     except IndexError:
         return None
     json_result = [{
-        'x': int(landmark.x * width),
-        'y': int(landmark.y * height),
+        'x': landmark.x * width,
+        'y': landmark.y * height,
         # 'z': landmark.z,
         'visibility': landmark.visibility,
         'presence': landmark.presence
