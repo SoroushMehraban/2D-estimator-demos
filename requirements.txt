@@ -1,2 +1,5 @@
 mediapipe
 opencv-python
+ultralytics
+timm
+torch
