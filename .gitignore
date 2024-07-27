@@ -1,3 +1,5 @@
 venv
 *.mp4
 *.json
+*.pt
+*.pth
